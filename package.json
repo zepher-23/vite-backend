@@ -1,0 +1,20 @@
+{
+  "name": "intern_web",
+  "version": "1.0.0",
+  "description": "test project",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "author": "tes\tt",
+  "license": "ISC",
+  "dependencies": {
+    "create-vite": "^4.4.1",
+    "create-vite-app": "^1.21.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.0",
+    "nodemon": "^3.0.1",
+    "react-router-dom": "^6.15.0"
+  }
+}
