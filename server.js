@@ -11,7 +11,7 @@ const Users = require('./Models/users')
 
 app.use(express.urlencoded())
 
-const url = "mongodb://127.0.0.1:27017/social-media"
+const url = "mongodb+srv://user2:YBcx6OFakc791lg0@cluster0.nmn5cih.mongodb.net/data-user?retryWrites=true&w=majority"
 
 
 db.connection(url)
@@ -30,6 +30,7 @@ userData.save().then(()=>{
 })
 
 
+
 app.post("/", (req, res) => {
 
     console.log(req.body)
@@ -40,6 +41,7 @@ app.post("/", (req, res) => {
 // app.use("/users",users)
 app.use("/profile",profile)
 app.use("/users",users)
+
 
 
 
